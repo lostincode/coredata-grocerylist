@@ -5,4 +5,4 @@ A simple iOS app that utilizes Core Data for creating a basic grocery list app. 
 * Add items to lists.
 * Tap to mark list item as picked up.
 
-![grocery list ios app](http://wrichards.com/github/ios-grocerylist/grocery.png "")
+![](http://wrichards.com/github/ios-grocerylist/grocery.png)

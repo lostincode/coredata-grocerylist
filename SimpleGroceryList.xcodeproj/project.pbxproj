@@ -18,7 +18,6 @@
 		2A59526F172390E100EBF32F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A59526E172390E100EBF32F /* Default-568h@2x.png */; };
 		2A595272172390E100EBF32F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A595270172390E100EBF32F /* MainStoryboard.storyboard */; };
 		2A59527D1723914000EBF32F /* SimpleGroceryList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A59527B1723914000EBF32F /* SimpleGroceryList.xcdatamodeld */; };
-		2A5952861723920B00EBF32F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5952851723920B00EBF32F /* Item.m */; };
 		2A5952881723926900EBF32F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5952871723926900EBF32F /* CoreData.framework */; };
 		2A59528B1723932200EBF32F /* List+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A59528A1723932200EBF32F /* List+Create.m */; };
 		2A59528E1723957900EBF32F /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A59528D1723957900EBF32F /* CoreDataTableViewController.m */; };
@@ -26,6 +25,7 @@
 		2A59529417239B6900EBF32F /* ItemsForListCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A59529317239B6900EBF32F /* ItemsForListCDTVC.m */; };
 		2A59529717239BD900EBF32F /* Item+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A59529617239BD900EBF32F /* Item+Create.m */; };
 		2A80DD451723BFD500711174 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A80DD441723BFD500711174 /* List.m */; };
+		2A945B1817282E7E00A4B7E8 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A945B1717282E7E00A4B7E8 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +44,6 @@
 		2A59526E172390E100EBF32F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2A595271172390E100EBF32F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2A59527C1723914000EBF32F /* SimpleGroceryList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleGroceryList.xcdatamodel; sourceTree = "<group>"; };
-		2A5952841723920B00EBF32F /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
-		2A5952851723920B00EBF32F /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		2A5952871723926900EBF32F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2A5952891723932200EBF32F /* List+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "List+Create.h"; sourceTree = "<group>"; };
 		2A59528A1723932200EBF32F /* List+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "List+Create.m"; sourceTree = "<group>"; };
@@ -59,6 +57,8 @@
 		2A59529617239BD900EBF32F /* Item+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+Create.m"; sourceTree = "<group>"; };
 		2A80DD431723BFD500711174 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		2A80DD441723BFD500711174 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		2A945B1617282E7E00A4B7E8 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		2A945B1717282E7E00A4B7E8 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +139,6 @@
 		2A80DD461724652E00711174 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2A5952841723920B00EBF32F /* Item.h */,
-				2A5952851723920B00EBF32F /* Item.m */,
 				2A59529517239BD900EBF32F /* Item+Create.h */,
 				2A59529617239BD900EBF32F /* Item+Create.m */,
 				2A80DD431723BFD500711174 /* List.h */,
@@ -148,6 +146,8 @@
 				2A5952891723932200EBF32F /* List+Create.h */,
 				2A59528A1723932200EBF32F /* List+Create.m */,
 				2A59527B1723914000EBF32F /* SimpleGroceryList.xcdatamodeld */,
+				2A945B1617282E7E00A4B7E8 /* Item.h */,
+				2A945B1717282E7E00A4B7E8 /* Item.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -221,13 +221,13 @@
 				2A595265172390E100EBF32F /* main.m in Sources */,
 				2A595269172390E100EBF32F /* AppDelegate.m in Sources */,
 				2A59527D1723914000EBF32F /* SimpleGroceryList.xcdatamodeld in Sources */,
-				2A5952861723920B00EBF32F /* Item.m in Sources */,
 				2A59528B1723932200EBF32F /* List+Create.m in Sources */,
 				2A59528E1723957900EBF32F /* CoreDataTableViewController.m in Sources */,
 				2A595291172395AA00EBF32F /* ListCDTVC.m in Sources */,
 				2A59529417239B6900EBF32F /* ItemsForListCDTVC.m in Sources */,
 				2A59529717239BD900EBF32F /* Item+Create.m in Sources */,
 				2A80DD451723BFD500711174 /* List.m in Sources */,
+				2A945B1817282E7E00A4B7E8 /* Item.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

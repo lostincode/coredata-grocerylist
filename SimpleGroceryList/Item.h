@@ -2,7 +2,7 @@
 //  Item.h
 //  SimpleGroceryList
 //
-//  Created by Bill Richards on 4/20/13.
+//  Created by Bill Richards on 4/24/13.
 //  Copyright (c) 2013 Bill Richards. All rights reserved.
 //
 
@@ -13,8 +13,8 @@
 
 @interface Item : NSManagedObject
 
-@property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * done;
+@property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) List *list;
 
 @end

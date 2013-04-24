@@ -2,7 +2,7 @@
 //  Item.m
 //  SimpleGroceryList
 //
-//  Created by Bill Richards on 4/20/13.
+//  Created by Bill Richards on 4/24/13.
 //  Copyright (c) 2013 Bill Richards. All rights reserved.
 //
 
@@ -12,8 +12,8 @@
 
 @implementation Item
 
-@dynamic name;
 @dynamic done;
+@dynamic name;
 @dynamic list;
 
 @end

@@ -25,7 +25,7 @@
 		2A59529417239B6900EBF32F /* ItemsForListCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A59529317239B6900EBF32F /* ItemsForListCDTVC.m */; };
 		2A59529717239BD900EBF32F /* Item+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A59529617239BD900EBF32F /* Item+Create.m */; };
 		2A80DD451723BFD500711174 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A80DD441723BFD500711174 /* List.m */; };
-		2A945B1817282E7E00A4B7E8 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A945B1717282E7E00A4B7E8 /* Item.m */; };
+		2A942AEF17AF194F00BFF803 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A942AEE17AF194F00BFF803 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,8 +57,8 @@
 		2A59529617239BD900EBF32F /* Item+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+Create.m"; sourceTree = "<group>"; };
 		2A80DD431723BFD500711174 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		2A80DD441723BFD500711174 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
-		2A945B1617282E7E00A4B7E8 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
-		2A945B1717282E7E00A4B7E8 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		2A942AED17AF194F00BFF803 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		2A942AEE17AF194F00BFF803 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +145,9 @@
 				2A80DD441723BFD500711174 /* List.m */,
 				2A5952891723932200EBF32F /* List+Create.h */,
 				2A59528A1723932200EBF32F /* List+Create.m */,
+				2A942AED17AF194F00BFF803 /* Item.h */,
+				2A942AEE17AF194F00BFF803 /* Item.m */,
 				2A59527B1723914000EBF32F /* SimpleGroceryList.xcdatamodeld */,
-				2A945B1617282E7E00A4B7E8 /* Item.h */,
-				2A945B1717282E7E00A4B7E8 /* Item.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 				2A59529417239B6900EBF32F /* ItemsForListCDTVC.m in Sources */,
 				2A59529717239BD900EBF32F /* Item+Create.m in Sources */,
 				2A80DD451723BFD500711174 /* List.m in Sources */,
-				2A945B1817282E7E00A4B7E8 /* Item.m in Sources */,
+				2A942AEF17AF194F00BFF803 /* Item.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

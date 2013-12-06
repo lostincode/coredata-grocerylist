@@ -22,7 +22,8 @@
 {
     if (self.list.managedObjectContext) {
         NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Item"];
-        request.sortDescriptors = @[[[NSSortDescriptor alloc] initWithKey:@"done" ascending:YES],[NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES selector:@selector(localizedCaseInsensitiveCompare:)]];
+        //request.sortDescriptors = @[[[NSSortDescriptor alloc] initWithKey:@"done" ascending:YES],[NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES selector:@selector(localizedCaseInsensitiveCompare:)]];
+        request.sortDescriptors = @[[[NSSortDescriptor alloc] initWithKey:@"done" ascending:YES],[NSSortDescriptor sortDescriptorWithKey:@"date" ascending:YES selector:nil]];
         request.predicate = [NSPredicate predicateWithFormat:@"list = %@", self.list];
         
         self.fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request
